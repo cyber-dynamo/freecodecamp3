@@ -1,31 +1,30 @@
-.App {
-  text-align: center;
+.navbar {
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
+.navbar-icon {
+  background-color:rgb(255, 255, 255);
+  height: 7vh;
   pointer-events: none;
+  margin-left: 10px;
+  border-radius: 25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .navbar-icon {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-header {
+  background-color: #5e08ce;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  color: rgb(255, 255, 255);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +34,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar-title{
+  margin-left:1%;
+  font-size: 27px;
+}
+.navbar-words{
+  margin-left:50%;
+  font-size:18px;
+}
+.meme-boxes{
+  display: flex;
+  justify-content: space-evenly;
+  height:40px;
+  margin-top:30px;
+  margin-bottom: 20px;
+
+}
+.memebox1{
+  width:40%;
+  border-radius:8px;
+  border-color: #e2e0e6;
+  text-indent: 10px;
+}
+.memebox2{
+  width:40%;
+  border-radius:8px;
+  border-color: #e2e0e6;
+  text-indent: 10px;
+}
+.meme-button{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height:50px;
+  width:88%;
+  background-color:#5e08ce;
+  color:#e2e0e6;
+  font-size: 20px;
+  border-radius: 8px;;
+}
+.main-image{
+  display: block;
+  size:10px;
+  max-height:300px;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 88%;
+  object-fit: contain;
+}
+.toptext{
+  font-weight: bold;
+  margin-left:40%;
+
+}
+.bottomtext{
+  font-weight:bold;
+  margin-left:40%
 }
